@@ -31,6 +31,7 @@ public class SortingFactory {
 			return new BubbleSort();
 		}
 		if (lowercaseAlgoName.contains("insertion")) {
+			
 			return new InsertionSort();
 		}
 		
